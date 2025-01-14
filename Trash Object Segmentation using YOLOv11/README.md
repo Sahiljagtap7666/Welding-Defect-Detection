@@ -1,6 +1,3 @@
-
----
-
 ### ** Trash Object Segmentation using YOLOv11**
 
 ```markdown
