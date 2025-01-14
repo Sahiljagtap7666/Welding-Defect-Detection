@@ -22,7 +22,8 @@ The goal is to identify welding defects and ensure that only defect-free welds a
   - Learning rate: 0.02
   - Image Size: 640x640
 - **Evaluation Metrics**: mAP (mean Average Precision).
-- mAP50-95:35.026%
-- mAP50:61.315%  
+- mAP50-95: 30.145%
+- mAP50:55.16%
+
 
 
