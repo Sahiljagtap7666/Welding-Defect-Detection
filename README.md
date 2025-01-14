@@ -12,16 +12,19 @@ The primary objective is to detect welding defects from images to improve the ma
 ## Dataset
 - **Number of Images**: 4314 images
 - **Classes**: Bad Welding (defective), Good Welding (non-defective)
-- **Source**: from roboflow
+- **Source**: https://universe.roboflow.com/yolo-eh6cy/weld-quality-inspection-rei9l-3rsxl
 
 ## Implementation Details
 - **Model Architecture**: YOLOv11 architecture is used for object detection tasks.
 - **Training Parameters**:
   - Batch Size: 16
-  - Learning Rate: 0.0025
   - Epochs: 50
   - Image Size: 640x640
 - **Evaluation Metrics**: mAP (mean Average Precision), Precision, Recall.
+- mAP50-95:35.8%
+- mAP50:60.3%
+- Precision:62.2%
+- Recall:63.2%
   
 
 
